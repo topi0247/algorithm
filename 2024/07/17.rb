@@ -1,3 +1,1 @@
-Haiku = gets.chomp.gsub(',', ' ')
-
-puts Haiku
+puts gets.gsub(',', "\s")
